@@ -1,0 +1,1 @@
+G:\soft\cocos2d-x-3.11.1\tools\cocos2d-console\bin\cocos.py run -p android --android-studio

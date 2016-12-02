@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="15" tilewidth="16" tileheight="16" nextobjectid="11">
+ <tileset firstgid="1" name="BlockCSS" tilewidth="16" tileheight="16" tilecount="768" columns="24">
+  <image source="BlockCSS.png" width="384" height="512"/>
+  <tile id="3">
+   <objectgroup draworder="index" name="t0">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index" name="t1">
+    <object id="1" x="2" y="2" width="12" height="12"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="bg1" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGATUBKxoebIBtoB1ABcDGMPT9wcYw+P3BggXjkyNHHT0wMxYMA9jkyFFHDwwAzbsBew==
+  </data>
+ </layer>
+ <objectgroup name="coll">
+  <object id="1" name="r1" x="0" y="208" width="80" height="32"/>
+  <object id="2" name="r2" x="112" y="208" width="128" height="32"/>
+  <object id="3" x="272" y="208" width="528" height="32"/>
+  <object id="5" x="336" y="148" width="64" height="12"/>
+  <object id="6" x="160" y="176" width="16" height="32"/>
+  <object id="9" x="144" y="192" width="16" height="16"/>
+  <object id="10" x="176" y="160" width="16" height="48"/>
+ </objectgroup>
+</map>

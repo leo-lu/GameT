@@ -1,0 +1,1 @@
+cc.exports.g_winSize = cc.Director:getInstance():getWinSize()

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="15" tilewidth="16" tileheight="16" nextobjectid="23">
+ <tileset firstgid="1" name="mario_maker" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="2640" columns="48">
+  <image source="mario_maker.png" width="817" height="941"/>
+ </tileset>
+ <layer name="bg1" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhC5igmJENgplI0JsCxKlIOI2APcxQTIodo2DwAFgcoscfuekHGcwA4plAPItEd8DY9ADsUEyWXno5kgBgZ8DuD36g+wSIcCPIHzBMKehjZGDoB+IJjKTpY2fA7Q97oLscSPQHpX6RZMKPiVVHDB4oe4eSPwAJcRAD
+  </data>
+ </layer>
+ <objectgroup name="coin"/>
+ <objectgroup name="coll">
+  <object id="1" x="0" y="208" width="128" height="32"/>
+  <object id="2" x="160" y="208" width="272" height="32"/>
+  <object id="3" x="480" y="208" width="128" height="32"/>
+  <object id="4" x="640" y="208" width="160" height="32"/>
+  <object id="5" x="224" y="192" width="16" height="16"/>
+  <object id="6" x="256" y="160" width="16" height="16"/>
+  <object id="7" x="240" y="176" width="16" height="16"/>
+  <object id="8" x="272" y="160" width="16" height="48"/>
+  <object id="9" x="336" y="176" width="32" height="32"/>
+  <object id="10" x="400" y="144" width="48" height="16"/>
+  <object id="11" x="496" y="160" width="16" height="48"/>
+  <object id="13" x="512" y="176" width="32" height="16"/>
+  <object id="15" x="544" y="192" width="16" height="16"/>
+  <object id="16" x="448" y="96" width="80" height="16"/>
+  <object id="17" x="208" y="96" width="80" height="16"/>
+  <object id="18" x="128" y="144" width="64" height="16"/>
+  <object id="19" x="32" y="144" width="48" height="16"/>
+  <object id="20" x="576" y="144" width="80" height="16"/>
+  <object id="21" x="624" y="96" width="64" height="16"/>
+ </objectgroup>
+</map>
